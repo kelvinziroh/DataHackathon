@@ -1,4 +1,4 @@
-EDA/data/dh_responses.csv
-EDA/data/non_affiliated.csv
-EDA/notebooks/dh_response_eda.ipynb
-EDA/notebooks/.ipynb_checkpoints
+dh_responses.csv
+non_affiliated.csv
+dh_response_eda.ipynb
+.ipynb_checkpoints

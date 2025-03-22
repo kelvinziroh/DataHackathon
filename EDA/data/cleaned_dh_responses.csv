@@ -1,0 +1,409 @@
+gender,course,cohort,cc_index,alx_affiliated
+male,data science,2.0,5,Affiliated
+female,data science,3.0,5,Affiliated
+female,data analytics,7.0,5,Affiliated
+male,data science,2.0,5,Affiliated
+male,data science,2.0,4,Affiliated
+male,data science,2.0,5,Affiliated
+female,data science,3.0,4,Affiliated
+female,data analytics,6.0,5,Affiliated
+male,data science,2.0,4,Affiliated
+female,data science,2.0,4,Affiliated
+male,data science,2.0,5,Affiliated
+male,data science,2.0,5,Affiliated
+female,data science,3.0,4,Affiliated
+female,data science,2.0,5,Affiliated
+male,data science,2.0,2,Affiliated
+female,data science,2.0,5,Affiliated
+male,data science,2.0,5,Affiliated
+male,data science,2.0,5,Affiliated
+female,data science,3.0,5,Affiliated
+male,data science,2.0,5,Affiliated
+male,data science,3.0,5,Affiliated
+female,data science,3.0,3,Affiliated
+male,data science,3.0,5,Affiliated
+male,other,0.0,4,Affiliated
+male,data science,3.0,3,Affiliated
+male,data science,3.0,5,Affiliated
+female,data analytics,7.0,4,Affiliated
+male,data science,1.0,5,Affiliated
+female,other,22.0,4,Affiliated
+female,data analytics,3.0,4,Affiliated
+male,other,0.0,5,Affiliated
+male,data analytics,1.0,5,Affiliated
+male,other,7.0,4,Affiliated
+male,data science,3.0,4,Affiliated
+male,other,2.0,4,Affiliated
+male,data analytics,1.0,5,Affiliated
+female,other,20.0,5,Affiliated
+female,data science,3.0,5,Affiliated
+male,data science,2.0,5,Affiliated
+male,data science,2.0,5,Affiliated
+male,data science,1.0,5,Affiliated
+female,data science,3.0,5,Affiliated
+female,data science,2.0,5,Affiliated
+male,data science,3.0,3,Affiliated
+male,other,3.0,5,Affiliated
+male,data science,3.0,4,Affiliated
+male,other,4.0,5,Affiliated
+male,data science,1.0,5,Affiliated
+male,data science,,5,Not affiliated
+male,other,,4,Not affiliated
+male,data science,1.0,4,Affiliated
+male,data science,3.0,5,Affiliated
+female,data analytics,2.0,5,Affiliated
+female,other,6.0,5,Affiliated
+male,data analytics,1.0,5,Affiliated
+female,data science,0.0,5,Affiliated
+female,data analytics,,5,Not affiliated
+male,data analytics,,3,Not affiliated
+female,data science,,5,Not affiliated
+male,other,,5,Not affiliated
+male,data analytics,2.0,4,Affiliated
+female,data science,3.0,5,Affiliated
+female,data science,,3,Not affiliated
+female,data science,,4,Not affiliated
+female,data science,1.0,4,Affiliated
+male,data science,1.0,4,Affiliated
+male,other,3.0,2,Affiliated
+male,data science,1.0,5,Affiliated
+female,data science,3.0,5,Affiliated
+male,data science,3.0,5,Affiliated
+female,data science,,3,Not affiliated
+male,other,0.0,4,Affiliated
+female,other,22.0,5,Affiliated
+male,data science,3.0,4,Affiliated
+female,data science,1.0,5,Affiliated
+female,data analytics,1.0,5,Affiliated
+male,data analytics,1.0,4,Affiliated
+female,data science,3.0,5,Affiliated
+male,other,3.0,3,Affiliated
+male,data analytics,1.0,3,Affiliated
+male,data science,2.0,5,Affiliated
+male,data science,0.0,5,Affiliated
+female,data science,3.0,4,Affiliated
+female,data analytics,3.0,5,Affiliated
+male,data analytics,,5,Not affiliated
+male,data science,1.0,5,Affiliated
+female,data science,,4,Not affiliated
+female,data science,2.0,5,Affiliated
+female,other,,5,Not affiliated
+male,data science,1.0,4,Affiliated
+female,data analytics,7.0,4,Affiliated
+female,other,2.0,5,Affiliated
+male,other,,5,Not affiliated
+male,data science,1.0,4,Affiliated
+female,other,2.0,4,Affiliated
+male,data science,3.0,4,Affiliated
+female,data analytics,,5,Not affiliated
+female,data science,2.0,4,Affiliated
+male,data analytics,1.0,3,Affiliated
+male,data analytics,7.0,5,Affiliated
+female,data science,2.0,4,Affiliated
+female,data science,0.0,5,Affiliated
+male,data science,,5,Not affiliated
+male,data analytics,3.0,5,Affiliated
+female,other,6.0,5,Affiliated
+female,data science,2.0,4,Affiliated
+male,data science,1.0,5,Affiliated
+female,data science,2.0,3,Affiliated
+male,data science,3.0,5,Affiliated
+male,other,1.0,5,Affiliated
+male,data science,3.0,5,Affiliated
+male,data science,1.0,3,Affiliated
+male,data science,3.0,4,Affiliated
+male,data analytics,2.0,4,Affiliated
+male,other,2.0,4,Affiliated
+female,data science,1.0,5,Affiliated
+male,data analytics,7.0,5,Affiliated
+female,data analytics,5.0,5,Affiliated
+male,data analytics,8.0,2,Affiliated
+female,data science,2.0,3,Affiliated
+male,data analytics,1.0,4,Affiliated
+male,data analytics,2.0,5,Affiliated
+male,other,,5,Not affiliated
+male,data analytics,1.0,5,Affiliated
+male,data science,3.0,4,Affiliated
+female,data science,,5,Not affiliated
+female,data science,1.0,5,Affiliated
+male,data science,3.0,5,Affiliated
+male,other,0.0,5,Affiliated
+female,other,7.0,3,Affiliated
+male,data science,1.0,4,Affiliated
+male,data science,3.0,5,Affiliated
+male,data analytics,1.0,5,Affiliated
+male,data analytics,7.0,5,Affiliated
+female,data science,3.0,5,Affiliated
+male,data science,3.0,5,Affiliated
+male,data analytics,1.0,5,Affiliated
+male,data analytics,3.0,5,Affiliated
+male,other,1.0,5,Affiliated
+male,data analytics,3.0,3,Affiliated
+female,data science,,5,Not affiliated
+male,data science,,5,Not affiliated
+female,other,3.0,4,Affiliated
+male,data analytics,3.0,5,Affiliated
+female,other,3.0,5,Affiliated
+male,other,3.0,5,Affiliated
+male,data analytics,1.0,5,Affiliated
+male,other,3.0,1,Affiliated
+male,other,3.0,5,Affiliated
+male,other,0.0,5,Affiliated
+male,data science,,5,Not affiliated
+female,data analytics,1.0,5,Affiliated
+male,other,2.0,5,Affiliated
+male,data science,1.0,5,Affiliated
+male,data analytics,2.0,5,Affiliated
+male,other,1.0,3,Affiliated
+male,data science,2.0,4,Affiliated
+female,data science,,5,Not affiliated
+male,other,,5,Not affiliated
+male,other,1.0,5,Affiliated
+male,data science,2.0,5,Affiliated
+male,data science,3.0,4,Affiliated
+female,data science,,5,Not affiliated
+female,data science,0.0,5,Affiliated
+male,data analytics,,5,Not affiliated
+male,data science,3.0,3,Affiliated
+male,data science,1.0,4,Affiliated
+male,data analytics,3.0,5,Affiliated
+female,data science,2.0,5,Affiliated
+male,other,1.0,4,Affiliated
+female,data science,,5,Not affiliated
+female,data science,0.0,5,Affiliated
+male,data analytics,3.0,4,Affiliated
+male,data science,3.0,5,Affiliated
+male,other,1.0,5,Affiliated
+female,other,1.0,5,Affiliated
+male,data analytics,1.0,4,Affiliated
+female,data science,1.0,4,Affiliated
+male,other,1.0,4,Affiliated
+male,data science,3.0,4,Affiliated
+male,other,2.0,3,Affiliated
+female,data analytics,1.0,5,Affiliated
+male,data science,0.0,5,Affiliated
+male,other,9.0,5,Affiliated
+male,other,1.0,3,Affiliated
+male,other,,5,Not affiliated
+female,other,,4,Not affiliated
+male,other,,3,Not affiliated
+male,data science,2.0,4,Affiliated
+male,data analytics,1.0,3,Affiliated
+male,data analytics,3.0,4,Affiliated
+female,data science,1.0,4,Affiliated
+male,data science,1.0,5,Affiliated
+female,other,,4,Not affiliated
+male,data analytics,,5,Not affiliated
+male,data science,1.0,5,Affiliated
+male,other,2.0,4,Affiliated
+male,data science,2.0,4,Affiliated
+male,data science,1.0,4,Affiliated
+male,other,,4,Not affiliated
+female,data science,1.0,4,Affiliated
+female,data analytics,,5,Not affiliated
+female,data science,3.0,5,Affiliated
+female,data science,3.0,5,Affiliated
+male,data science,2.0,5,Affiliated
+female,data science,,3,Not affiliated
+male,data analytics,3.0,5,Affiliated
+male,other,3.0,4,Affiliated
+male,data science,3.0,5,Affiliated
+male,other,3.0,5,Affiliated
+female,data science,0.0,5,Affiliated
+male,data science,2.0,5,Affiliated
+male,other,11.0,4,Affiliated
+female,data science,3.0,5,Affiliated
+male,data science,1.0,5,Affiliated
+male,data science,1.0,5,Affiliated
+male,other,2.0,5,Affiliated
+male,data science,1.0,5,Affiliated
+male,data science,1.0,4,Affiliated
+male,data science,2.0,1,Affiliated
+male,data analytics,,5,Not affiliated
+male,data science,1.0,4,Affiliated
+female,data science,1.0,5,Affiliated
+male,other,2.0,4,Affiliated
+male,data science,3.0,5,Affiliated
+male,data science,3.0,3,Affiliated
+male,other,3.0,5,Affiliated
+female,data analytics,3.0,5,Affiliated
+male,other,3.0,5,Affiliated
+male,data analytics,6.0,5,Affiliated
+female,data science,,5,Not affiliated
+male,other,1.0,5,Affiliated
+female,data science,3.0,5,Affiliated
+female,data science,3.0,5,Affiliated
+female,data analytics,4.0,4,Affiliated
+male,data analytics,1.0,4,Affiliated
+male,data science,1.0,5,Affiliated
+female,other,22.0,5,Affiliated
+female,other,,4,Not affiliated
+male,other,,4,Not affiliated
+male,data science,3.0,5,Affiliated
+female,data science,3.0,5,Affiliated
+female,data science,,5,Not affiliated
+male,other,1.0,5,Affiliated
+male,data science,3.0,5,Affiliated
+male,other,6.0,5,Affiliated
+female,data science,3.0,5,Affiliated
+male,other,1.0,5,Affiliated
+male,data science,2.0,5,Affiliated
+male,data analytics,2.0,5,Affiliated
+male,other,,4,Not affiliated
+male,data science,,4,Not affiliated
+male,other,1.0,3,Affiliated
+female,data analytics,7.0,5,Affiliated
+male,data science,3.0,5,Affiliated
+female,data science,,4,Not affiliated
+female,data science,1.0,5,Affiliated
+male,data analytics,1.0,5,Affiliated
+male,data science,0.0,5,Affiliated
+male,data analytics,2.0,4,Affiliated
+female,data science,1.0,5,Affiliated
+female,data analytics,1.0,5,Affiliated
+female,data science,1.0,5,Affiliated
+female,data science,3.0,4,Affiliated
+female,data analytics,7.0,5,Affiliated
+female,data analytics,5.0,3,Affiliated
+male,data analytics,5.0,4,Affiliated
+male,data science,1.0,3,Affiliated
+male,data science,1.0,3,Affiliated
+male,data science,2.0,5,Affiliated
+female,data science,2.0,5,Affiliated
+female,data analytics,7.0,3,Affiliated
+male,other,1.0,4,Affiliated
+male,data science,1.0,5,Affiliated
+female,data science,,5,Not affiliated
+female,other,3.0,4,Affiliated
+male,other,7.0,4,Affiliated
+female,data science,3.0,5,Affiliated
+male,data science,2.0,4,Affiliated
+male,data analytics,,5,Not affiliated
+female,other,2.0,3,Affiliated
+male,other,,5,Not affiliated
+female,data science,3.0,5,Affiliated
+female,data analytics,7.0,4,Affiliated
+male,data science,2.0,4,Affiliated
+female,data science,3.0,5,Affiliated
+male,data science,2.0,5,Affiliated
+male,data science,2.0,5,Affiliated
+male,data science,3.0,4,Affiliated
+female,data analytics,3.0,5,Affiliated
+male,data science,2.0,5,Affiliated
+male,data science,2.0,5,Affiliated
+female,data science,2.0,4,Affiliated
+female,data analytics,6.0,3,Affiliated
+female,data science,3.0,4,Affiliated
+female,data science,3.0,5,Affiliated
+female,data analytics,7.0,3,Affiliated
+male,data science,3.0,4,Affiliated
+female,data analytics,3.0,5,Affiliated
+male,data science,,5,Not affiliated
+male,other,0.0,5,Affiliated
+female,data science,1.0,4,Affiliated
+female,data science,1.0,5,Affiliated
+male,data analytics,7.0,5,Affiliated
+male,data science,2.0,3,Affiliated
+male,data analytics,7.0,4,Affiliated
+male,data science,3.0,5,Affiliated
+male,data science,3.0,5,Affiliated
+male,data science,3.0,5,Affiliated
+male,data science,3.0,5,Affiliated
+male,data science,3.0,5,Affiliated
+male,data science,3.0,5,Affiliated
+male,data science,3.0,5,Affiliated
+female,data science,3.0,5,Affiliated
+male,data analytics,8.0,5,Affiliated
+female,data analytics,8.0,3,Affiliated
+male,data science,3.0,4,Affiliated
+female,data analytics,8.0,5,Affiliated
+male,data science,3.0,5,Affiliated
+male,data science,1.0,5,Affiliated
+female,data analytics,8.0,5,Affiliated
+male,data science,3.0,5,Affiliated
+female,data science,3.0,5,Affiliated
+female,data analytics,8.0,5,Affiliated
+female,other,8.0,4,Affiliated
+male,data science,1.0,5,Affiliated
+female,data analytics,8.0,5,Affiliated
+male,other,8.0,4,Affiliated
+male,data analytics,8.0,5,Affiliated
+male,other,8.0,4,Affiliated
+male,data science,3.0,4,Affiliated
+male,data science,3.0,5,Affiliated
+female,data analytics,8.0,5,Affiliated
+male,data science,3.0,5,Affiliated
+female,other,7.0,5,Affiliated
+male,data science,3.0,5,Affiliated
+female,data science,3.0,5,Affiliated
+female,data analytics,8.0,4,Affiliated
+male,data science,3.0,5,Affiliated
+male,data science,3.0,4,Affiliated
+male,data science,3.0,4,Affiliated
+female,data science,3.0,4,Affiliated
+female,data science,3.0,5,Affiliated
+male,data science,3.0,3,Affiliated
+male,data science,3.0,4,Affiliated
+female,data analytics,3.0,4,Affiliated
+male,data science,3.0,5,Affiliated
+female,data analytics,8.0,5,Affiliated
+male,data analytics,3.0,4,Affiliated
+male,data analytics,8.0,5,Affiliated
+female,data analytics,8.0,5,Affiliated
+male,other,8.0,4,Affiliated
+female,data analytics,8.0,4,Affiliated
+male,data science,3.0,3,Affiliated
+female,data analytics,4.0,5,Affiliated
+male,data analytics,1.0,5,Affiliated
+female,data analytics,7.0,5,Affiliated
+male,other,8.0,2,Affiliated
+female,data analytics,8.0,5,Affiliated
+female,data science,3.0,5,Affiliated
+male,data analytics,8.0,4,Affiliated
+male,data science,3.0,5,Affiliated
+male,other,0.0,5,Affiliated
+male,other,7.0,4,Affiliated
+male,other,10.0,5,Affiliated
+male,data science,1.0,4,Affiliated
+male,data science,3.0,4,Affiliated
+male,data science,3.0,5,Affiliated
+female,data science,3.0,4,Affiliated
+male,other,8.0,5,Affiliated
+male,data science,3.0,5,Affiliated
+male,data analytics,8.0,5,Affiliated
+female,data science,1.0,4,Affiliated
+male,data science,2.0,3,Affiliated
+male,other,,5,Not affiliated
+male,data science,3.0,4,Affiliated
+female,data analytics,1.0,5,Affiliated
+female,data analytics,0.0,4,Affiliated
+female,data science,3.0,5,Affiliated
+male,data analytics,2.0,3,Affiliated
+female,data science,1.0,3,Affiliated
+male,data science,3.0,5,Affiliated
+female,other,5.0,5,Affiliated
+male,other,1.0,5,Affiliated
+male,data science,3.0,5,Affiliated
+male,data science,,3,Not affiliated
+male,other,8.0,5,Affiliated
+male,data analytics,0.0,4,Affiliated
+female,data analytics,1.0,5,Affiliated
+male,data science,3.0,5,Affiliated
+female,data analytics,8.0,5,Affiliated
+male,data analytics,3.0,5,Affiliated
+male,data analytics,3.0,5,Affiliated
+male,data science,2.0,5,Affiliated
+female,data analytics,3.0,4,Affiliated
+male,other,2.0,4,Affiliated
+male,data science,1.0,4,Affiliated
+male,other,2.0,5,Affiliated
+female,data analytics,5.0,5,Affiliated
+male,data analytics,3.0,5,Affiliated
+female,data science,3.0,5,Affiliated
+female,data analytics,7.0,3,Affiliated
+male,other,8.0,4,Affiliated
+male,data science,3.0,5,Affiliated
+male,other,8.0,5,Affiliated
+female,other,8.0,5,Affiliated
+female,data science,3.0,5,Affiliated
+male,data science,2.0,6,Affiliated

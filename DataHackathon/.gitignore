@@ -1,2 +1,4 @@
 #!/bin/bash
 myprojectdb
+db.sqlite3
+

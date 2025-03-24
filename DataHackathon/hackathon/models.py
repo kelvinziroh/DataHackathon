@@ -13,6 +13,7 @@ class Team(models.Model):
         return self.teamName
 
 class Participant(models.Model):
+    name = models.CharField(max_length=100)
     participantId = models.AutoField(primary_key=True)
     team = models.ForeignKey(Team, on_delete=models.CASCADE)
     email = models.CharField(max_length=255)
@@ -28,7 +29,7 @@ class Participant(models.Model):
     confidenceScore = models.IntegerField()
 
     def __str__(self):
-        return f"{self.firstName} {self.lastName}"
+        return f"{self.firstName} {self.lastName} {self.name}"
 
 class Phase(models.Model):
     phaseId = models.AutoField(primary_key=True)

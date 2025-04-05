@@ -7,7 +7,7 @@ class Command(BaseCommand):
     help = 'Import participants from a CSV file into PostgreSQL'
 
     def add_arguments(self, parser):
-        parser.add_argument('csv_file', type=str, help='Path to the CSV file')
+        parser.add_argument('DataHackathon.csv')
 
     def handle(self, *args, **options):
         csv_file_path = options['csv_file']

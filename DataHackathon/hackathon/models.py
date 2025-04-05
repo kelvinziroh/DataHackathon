@@ -1,6 +1,8 @@
 from django.db import models
+import uuid 
 
 class Team(models.Model):
+    id = models.UUIDField(default=uuid.uuid4, editable=False)
     teamId = models.AutoField(primary_key=True)
     teamName = models.CharField(max_length=255)
     league = models.CharField(max_length=255)
@@ -13,6 +15,7 @@ class Team(models.Model):
         return self.teamName
 
 class Participant(models.Model):
+    id = models.UUIDField(default=uuid.uuid4, editable=False)
     name = models.CharField(max_length=100)
     participantId = models.AutoField(primary_key=True)
     team = models.ForeignKey(Team, on_delete=models.CASCADE)
@@ -29,7 +32,7 @@ class Participant(models.Model):
     confidenceScore = models.IntegerField()
 
     def __str__(self):
-        return f"{self.firstName} {self.lastName} {self.name}"
+        return f"{self.firstName} {self.lastName}"
 
 class Phase(models.Model):
     phaseId = models.AutoField(primary_key=True)

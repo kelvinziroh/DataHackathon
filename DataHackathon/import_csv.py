@@ -9,7 +9,7 @@ from django.db import transaction
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'DataHackathon.settings')
 django.setup()
 
-from hackathon.models import Team, Participant  # Adjust app name if different
+from hackathon.models import Team, Participant
 
 def bulk_import_participants(csv_file_path='DataHackathon.csv'):
     """Import all participant data from CSV into myprojectdb"""

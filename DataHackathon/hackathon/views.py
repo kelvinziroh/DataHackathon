@@ -30,7 +30,8 @@ class RegisterView(APIView):
         if serializer.is_valid():
             user = serializer.save()
             tokens = get_tokens_for_user(user)
-            return Response({"user": serializer.data, "tokens": tokens}, status=status.HTTP_400_BAD_REQUEST)
+            return Response({"user": serializer.data, "tokens": tokens}, status=status.HTTP_201_CREATED)
+        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
 
 class LoginView(APIView):

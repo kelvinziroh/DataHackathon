@@ -14,7 +14,7 @@ from pathlib import Path
 from decouple import config
 
 # auth config
-SECRET = config('GOOGLE_CLIENT_SECRET')
+# SECRET = config('GOOGLE_CLIENT_SECRET')
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -168,9 +168,6 @@ SOCIALACCOUNT_EMAIL_REQUIRED = True
 
 # Custom user model
 AUTH_USER_MODEL = 'hackathon.CustomUser'
-
-
-
 
 # Django allauth config
 SITE_ID = 1

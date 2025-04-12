@@ -1,10 +1,7 @@
--- Drop the database if it exists
+-- reset_db.sql
 DROP DATABASE IF EXISTS myprojectdb;
-
--- Create the database
 CREATE DATABASE myprojectdb;
 
--- Create the user with a password
 DO
 $$
 BEGIN
@@ -16,5 +13,8 @@ BEGIN
 END
 $$;
 
--- Grant all privileges on the database to the user
 GRANT ALL PRIVILEGES ON DATABASE myprojectdb TO myuser;
+
+-- Connect to myprojectdb and grant schema privileges
+\connect myprojectdb
+GRANT ALL ON SCHEMA public TO myuser;

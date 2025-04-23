@@ -1,3 +1,4 @@
 myprojectdb
 .env
 *.pyc
+node_modules

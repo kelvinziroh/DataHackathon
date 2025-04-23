@@ -174,3 +174,13 @@ SITE_ID = 1
 ACCOUNT_EMAIL_VERIFICATION = 'mandatory'
 ACCOUNT_EMAIL_REQUIRED = True
 ACCOUNT_AUTHENTICATION_METHOD = 'email'
+<<<<<<< HEAD
+=======
+
+
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+        'rest_framework_simplejwt.authentication.JWTAuthentication',
+    )
+}
+>>>>>>> 52ab7dc8c5e15fd62a72cc8c8f0d979026d97f84

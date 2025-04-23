@@ -1,4 +1,11 @@
 myprojectdb
 .env
+
 *.pyc
+<<<<<<< HEAD
 node_modules
+=======
+
+venv
+
+>>>>>>> 52ab7dc8c5e15fd62a72cc8c8f0d979026d97f84

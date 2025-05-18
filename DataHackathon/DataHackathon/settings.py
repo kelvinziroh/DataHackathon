@@ -14,7 +14,7 @@ from pathlib import Path
 from decouple import config
 
 # auth config
-# SECRET = config('GOOGLE_CLIENT_SECRET')
+SECRET = config('GOOGLE_CLIENT_SECRET')
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -29,8 +29,8 @@ SECRET_KEY = 'django-insecure-@-m1i!1dj&5j410%d^s1m15ze%xu=+_@%9fn^*6d6%r2y7=hw2
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['alx.snap.co.ke', 'localhost', '127.0.0.1']
-
+# ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '102.210.149.248', 'alx.snap.co.ke']
 
 # Application definition
 
@@ -49,7 +49,6 @@ INSTALLED_APPS = [
     'rest_framework',
     'hackathon',
     'drf_spectacular',
-    'corsheaders',
 ]
 
 MIDDLEWARE = [
@@ -61,10 +60,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'allauth.account.middleware.AccountMiddleware',
-    'corsheaders.middleware.CorsMiddleware',
-    'whitenoise.middleware.WhiteNoiseMiddleware',
 ]
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 ROOT_URLCONF = 'DataHackathon.urls'
 
@@ -93,13 +89,14 @@ WSGI_APPLICATION = 'DataHackathon.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'myprojectdb',
-        'USER': 'myuser',
-        'PASSWORD': 'mypassword',
+        'NAME': 'alxdb',
+        'USER': 'bentito',
+        'PASSWORD': 'S6n95£;S~Vtr',
         'HOST': 'localhost',
         'PORT': '5432',
     }
 }
+
 
 
 # Password validation
@@ -138,7 +135,6 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
 STATIC_URL = 'static/'
-STATIC_ROOT = '/home/kali/Data/DataHackathon/DataHackathon/staticfiles/'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
@@ -175,6 +171,13 @@ SOCIALACCOUNT_EMAIL_REQUIRED = True
 # Custom user model
 AUTH_USER_MODEL = 'hackathon.CustomUser'
 
+CSRF_TRUSTED_ORIGINS = [
+    'https://alx.snap.co.ke',
+    'http://alx.snap.co.ke',
+]
+
+
+
 # Django allauth config
 SITE_ID = 1
 ACCOUNT_EMAIL_VERIFICATION = 'mandatory'
@@ -188,12 +191,3 @@ REST_FRAMEWORK = {
     ),
     'DEFAULT_SCHEMA_CLASS': 'drf_spectacular.openapi.AutoSchema',
 }
-
-SPECTACULAR_SETTINGS = {
-    'TITLE': 'ALX Hackathon API',
-    'DESCRIPTION': 'API for user registration, login, and authentication status',
-    'VERSION': '1.0.0',
-    'SERVE_INCLUDE_SCHEMA': True,
-}
-
-CORS_ALLOWED_ORIGINS = ['https://alx.snap.co.ke']

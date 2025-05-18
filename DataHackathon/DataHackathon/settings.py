@@ -176,7 +176,12 @@ CSRF_TRUSTED_ORIGINS = [
     'http://alx.snap.co.ke',
 ]
 
-
+CORS_ALLOWED_ORIGINS = [
+    'https://alx.snap.co.ke',
+    'http://alx.snap.co.ke',
+    'http://localhost:5173',
+    'https://datathon-sigma.vercel.app',
+]
 
 # Django allauth config
 SITE_ID = 1

@@ -27,10 +27,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-@-m1i!1dj&5j410%d^s1m15ze%xu=+_@%9fn^*6d6%r2y7=hw2'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 # ALLOWED_HOSTS = []
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '102.210.149.248', 'alx.snap.co.ke']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '102.210.149.248', 'alx.snap.co.ke', 'https://datathon-git-ft-auth-murags-projects.vercel.app/']
 
 # Application definition
 
@@ -62,6 +62,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'allauth.account.middleware.AccountMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
 ]
 
 ROOT_URLCONF = 'DataHackathon.urls'
@@ -172,18 +173,13 @@ SOCIALACCOUNT_EMAIL_REQUIRED = True
 
 # Custom user model
 AUTH_USER_MODEL = 'hackathon.CustomUser'
-
-CSRF_TRUSTED_ORIGINS = [
-    'https://alx.snap.co.ke',
-    'http://alx.snap.co.ke',
-]
-
+-
 # CORS settings
 CORS_ALLOWED_ORIGINS = [
-    'https://alx.snap.co.ke',
     'http://alx.snap.co.ke',
     'http://localhost:5173',
     'https://datathon-sigma.vercel.app',
+    'https://datathon-git-ft-auth-murags-projects.vercel.app/'
 ]
 
 # Allow credentials (cookies, authorization headers, etc.) to be included in cross-site requests
